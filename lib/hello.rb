@@ -2,7 +2,6 @@ def hello_t(array)
  array.each do |name|
    puts "#{name}""
    end
-   yield
 end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"])
