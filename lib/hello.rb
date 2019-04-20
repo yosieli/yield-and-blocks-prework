@@ -3,6 +3,7 @@ def hello_t
 end
 
 # call your method here!
-hello_t{puts"#{array}"}
+hello_t([])
+{puts"#{array}"}
 
 
