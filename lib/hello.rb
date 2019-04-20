@@ -1,6 +1,6 @@
 def hello_t(array)
  array.each do |name|
-   puts "#{name.upercase}."
+   puts "#{name.upcase}."
 end
 end
 # call your method here!
