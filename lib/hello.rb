@@ -1,7 +1,8 @@
 def hello_t(array)
-puts"#{array}"
+ array.each do |name|
+   puts "#{name}"
 end
-
+end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"])
 
