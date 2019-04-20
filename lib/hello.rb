@@ -6,8 +6,7 @@ def hello_t(array)
 end
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"])
-hello_t(["Ali", "Jasmine", "Persephone"])do |name|
-  puts "#{name.upcase}"
+hello_t(["ALI", "JASMINE", "PERSEPHONE"])
 end
   
 
